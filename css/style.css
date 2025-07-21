@@ -1,0 +1,24 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    outline: 1px solid red;
+    
+}
+
+.menu__items{
+    display: flex;
+}
+
+.menu__items__main{
+    outline: 1px solid red;
+    display: flex;
+}
+
+.menu__items__second{
+    outline: 1px solid red;
+    display: flex;
+}
