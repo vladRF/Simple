@@ -7,78 +7,158 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="menu container">
-            <img src="img/logo.svg" alt="Логотип" width="140" height="22">
+            <img class="menu__logo__img" src="img/logo.svg" alt="Логотип" width="140" height="22">
             <nav class="menu__items">
                 <ul class="menu__items__main">
-                    <li>Продукция</li>
-                    <li>Материалы</li>
-                    <li>О нас</li>
-                    <li>Контакты</li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="#">Материалы</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
 
                 <ul class="menu__items__second">
-                    <li><img src="img/Search.svg" alt=""></li>
-                    <li><img src="img/log_in.svg" alt=""></li>
+                    <li><a href="#"><img src="img/Search.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/log_in.svg" alt=""></a></li>
                 </ul>
 
             </nav>
         </div>
-        <section>
-            <h1>Простые вещи. Из бумаги</h1>
-            <p>
-                Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый
-                материал с минеральными добавками.
-            </p>
-            <img src="img/Layer 2 copy.png" alt="">
-            <a href="#">Каталог</a>
+        <section class="simple-paper container">
+
+            <div class="simple-paper__text">
+                <h1 class="simple-paper__heading">Простые вещи. Из бумаги</h1>
+                <p class="simple-paper__text__p">
+                    Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый
+                    материал с минеральными добавками.
+                </p>
+                <a class="buton" href="#">Каталог</a>
+            </div>
+
+            <img class="paper" src="img/Layer 2 copy.png" alt="" width="540">
+
         </section>
+
+
 
 
 
     </header>
     <main>
+        <section class="bleaching-process">
+            <div class="bleaching-process__content">
+                <ul>
+                    <li class="bleaching-process__content__card">
+                        <img src="img/v1.svg" alt="" width="160" height="118">
+                        <div class="card-text">
+                            <p>v.1</p>
+                            <p>Результат вашего обучения</p>
+                        </div>
+
+
+
+
+                    </li>
+                    <li>
+                        <img src="img/v2.svg" alt="">
+                        <p>v.2</p>
+                        <p>Результат вашего обучения</p>
+                    </li>
+                    <li>
+                        <img src="img/v3.svg" alt="">
+                        <p>v.3</p>
+                        <p>Результат вашего обучения</p>
+                    </li>
+                </ul>
+
+
+                <div>
+                    <img src="img/MaxWhite.png" alt="">
+                    <h2>Максимальная белизна</h2>
+                    <p>Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные
+                        вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
+                        Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой
+                        является
+                        непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+                </div>
+            </div>
+
+
+
+        </section>
         <section>
             <ul>
                 <li>
-                    <img src="img/v1.svg" alt="">
-                    <p>v.1</p>
-                    <p>Результат вашего обучения</p>
-
-
-
+                    <img src="img/packaging.png" alt="">
+                    <p>Упаковка</p>
+                    <p>Тираж: от 50 штук</p>
+                    <p>Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки,
+                        изготовим форму под заказ.</p>
+                    <a href="#">Подробнее</a>
                 </li>
                 <li>
-                    <img src="img/v2.svg" alt="">
-                    <p>v.2</p>
-                    <p>Результат вашего обучения</p>
+                    <img src="img/packeges.png" alt="">
+                    <p>Пакеты</p>
+                    <p>Тираж: от 200 штук</p>
+                    <p>С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные
+                        расцветки и дизайн.</p>
+                    <a href="#">Подробнее</a>
                 </li>
                 <li>
-                    <img src="img/v3.svg" alt="">
-                    <p>v.3</p>
-                    <p>Результат вашего обучения</p>
+                    <img src="img/cases.png" alt="">
+                    <P>кейсы</P>
+                    <P>Тираж: от 30 штук</P>
+                    <P>Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал:
+                        прессованная бумага.</P>
+                    <a href="#">Подробнее</a>
+                </li>
+                <li>
+                    <img src="img/otherProducts.png" alt="">
+                    <p>Другие изделия</p>
+                    <p>Тираж: от 100 штук</p>
+                    <p>Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в
+                        кратчайшие сроки.</p>
+                    <a href="#">Подробнее</a>
                 </li>
             </ul>
+        </section>
+        <section>
+            <ul>
+                <li><img src="img/Hahnemuhle.png" alt=""></li>
+                <li><img src="img/canson.png" alt=""></li>
+                <li><img src="img/royalTalens.png" alt=""></li>
+                <li><img src="img/fabriano.png" alt=""></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Simple скетчбук</h2>
+            <p>
+                80 листов, твердая обложка, бумага Fabriano 200г/м2. Подойдет и для графики и для акварели. Для самых
+                смелых творческих замыслов!
+            </p>
 
+            <a href="#">Купить</a>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <img src="img/logo_footer.svg" alt="">
             <div>
-                <img src="img/MaxWhite.png" alt="">
-                <h2>Максимальная белизна</h2>
-                <p>Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные
-                    вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
-                    Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является
-                    непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+                <img src="img/facebook_footer.svg" alt="">
+                <img src="img/tweeter_footer.svg" alt="">
+                <img src="img/insta_footer.svg" alt="">
+                <img src="img/youtube_footer.svg" alt="">
             </div>
         </section>
-
-
-
-
-    </main>
-    <footer></footer>
+    </footer>
 
 </body>
 

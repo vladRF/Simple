@@ -1,24 +1,148 @@
-.container{
+a {
+    text-decoration: none;
+    color: #4c5866;
+}
+
+
+
+
+.container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.menu{
+.menu {
     display: flex;
     outline: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    /*padding-top: 29px;*/
+    height: 80px;
+    padding-left: 165px;
+    padding-right: 165px;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4c5866;
+
+}
+
+
+.menu__items {
+    display: flex;
+    gap: 60px;
+}
+
+.menu__items__main {
+    outline: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.menu__items__second {
+    outline: 1px solid red;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: brown;
+}
+
+.simple-paper {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.simple-paper__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    height: 322px;
+    outline: 1px solid red;
+    box-sizing: border-box;
+    margin-left: 165px;
+    margin-top: 130px;
     
+
 }
 
-.menu__items{
+.simple-paper__text__p{
+font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    width: 445px;
+    /*height: 110px;*/
+    color: #85859b;
+    margin-bottom: 30px;
+
+
+
+}
+
+.simple-paper__heading {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 60px;
+
+    color: #4c5866;
+    margin-bottom: 30px;
+    width: 445px;
+    height: 120px;
+    box-sizing: border-box;
+
+}
+
+.buton {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7875fe;
+    border: 1px solid #7875fe;
+    padding: 20px 50px;
+    width: 255px;
+    height: 70px;
+    box-sizing: border-box;
 }
 
-.menu__items__main{
+.paper{
+    margin-top: 60px;
+}
+
+
+.bleaching-process{
+    background-color: #DCDCDC;
+}
+
+.bleaching-process__content{
     outline: 1px solid red;
-    display: flex;
 }
 
-.menu__items__second{
-    outline: 1px solid red;
+.bleaching-process__content__card{
+    outline: 1px solid black;
     display: flex;
+    max-width: 350px;
+}
+
+.card-text{
+display: flex;
+flex-direction: column;
+outline: 1px solid red;
+width: 160px;
+height: 81px;
+
 }
