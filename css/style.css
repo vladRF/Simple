@@ -264,7 +264,6 @@ a {
     font-weight: 400;
     font-size: 20px;
     color: #7875fe;
-
 }
 
 .catalog-card_link::after{
@@ -275,4 +274,21 @@ a {
 
 .catalog-card_img {
     margin-bottom: 22px;
+}
+
+
+/*--------------------Блок компаний------------------*/
+
+.companies{
+    background-color: #DCDCDC;
+    padding-top: 90px;
+    outline: 2px solid black;
+    padding-bottom: 90px;
+}
+
+.companies_list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    outline: 2px solid black;
 }
