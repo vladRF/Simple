@@ -4,8 +4,6 @@ a {
 }
 
 
-
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -21,12 +19,10 @@ a {
     padding-left: 165px;
     padding-right: 165px;
     box-sizing: border-box;
-
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     color: #4c5866;
-
 }
 
 
@@ -41,7 +37,6 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-
 }
 
 .menu__items__second {
@@ -59,9 +54,6 @@ a {
 .simple-paper {
     display: flex;
     justify-content: space-between;
-
-
-
 }
 
 .simple-paper__text {
@@ -73,8 +65,6 @@ a {
     box-sizing: border-box;
     margin-left: 165px;
     margin-top: 130px;
-
-
 }
 
 .simple-paper__text__p {
@@ -85,29 +75,23 @@ a {
     /*height: 110px;*/
     color: #85859b;
     margin-bottom: 30px;
-
-
-
 }
 
 .simple-paper__heading {
     font-family: Roboto;
     font-weight: 400;
     font-size: 60px;
-
     color: #4c5866;
     margin-bottom: 30px;
     width: 445px;
     height: 120px;
     box-sizing: border-box;
-
 }
 
 .buton {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
@@ -129,15 +113,11 @@ a {
     outline: 1px solid red;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .bleaching-process__content {
     outline: 1px solid red;
     width: 1110px;
-
 }
 
 .bleaching-process__content__card {
@@ -157,7 +137,6 @@ a {
     height: 81px;
     margin-top: 37px;
     box-sizing: border-box;
-
 }
 
 .card-text__main {
@@ -187,7 +166,6 @@ a {
     justify-content: center;
     margin-bottom: 90px;
     box-sizing: border-box;
-
 }
 
 .bleaching-process__main {
@@ -204,8 +182,6 @@ a {
     box-sizing: border-box;
     outline: 1px solid red;
     align-self: flex-start;
-
-
 }
 
 .bleaching-process__heading {
@@ -224,7 +200,6 @@ a {
 
 
 .bleaching-process__main-paragraph {
-
     outline: 1px solid green;
     width: 350px;
     font-family: Roboto;
@@ -233,6 +208,71 @@ a {
     line-height: 170%;
     color: #85859b;
     box-sizing: border-box;
-    
-    
+}
+
+/*------------------Блок Каталог изделий-----------------*/
+
+.catalog {
+    width: 1440px;
+    outline: 2px solid black;
+    padding-top: 90px;
+
+}
+
+.catalog-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+
+
+.catalog-card {
+    width: 255px;
+    height: 465px;
+    outline: 2px solid red;
+}
+
+.catalog-card_heading {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.circulation {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #b5b5bd;
+    margin-bottom: 10px;
+}
+
+.catalog-card_content {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859b;
+    margin-bottom: 22px;
+}
+
+.catalog-card_link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7875fe;
+
+}
+
+.catalog-card_link::after{
+    content: "\2192";
+    margin-left: 5px;
+}
+
+
+.catalog-card_img {
+    margin-bottom: 22px;
 }
