@@ -47,9 +47,7 @@ a {
     align-items: center;
 }
 
-.footer {
-    background-color: brown;
-}
+
 
 .simple-paper {
     display: flex;
@@ -292,4 +290,32 @@ a {
     justify-content: center;
     gap: 30px;
     outline: 2px solid black;
+}
+
+/*-----------------------simple-sketchbook------------*/
+
+
+.simple-sketchbook{
+    outline: 2px solid red;
+    display: flex;
+}
+
+
+
+.simple-sketchbook_text{
+    outline: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color:#4C5866;
 }
