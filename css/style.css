@@ -298,20 +298,52 @@ a {
 .simple-sketchbook{
     outline: 2px solid red;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #FFFFFF;
 }
 
 
 
 .simple-sketchbook_text{
     outline: 1px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 114px;
+    box-sizing: border-box;
 }
 
+.simple-sketchbook_text_header{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #666;
+    margin-bottom: 8px;
+}
 
+.simple-sketchbook_text_content{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+color: #85859b;
+margin-bottom: 30px;
+}
 
+.simple-sketchbook_button{
+    padding: 23.5px 94.5px;
+    box-sizing: border-box;
+    border: 2px solid #7875FE;
+    width: 255px;
+    height: 70px;
+}
 
-
-
-
+.simple-sketchbook_img{
+    margin-top: 90px;
+}
 
 
 
