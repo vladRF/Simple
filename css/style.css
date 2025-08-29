@@ -11,7 +11,6 @@ a {
 
 .menu {
     display: flex;
-    outline: 1px solid red;
     justify-content: space-between;
     align-items: center;
     /*padding-top: 29px;*/
@@ -32,7 +31,6 @@ a {
 }
 
 .menu__items__main {
-    outline: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,14 +38,11 @@ a {
 }
 
 .menu__items__second {
-    outline: 1px solid red;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 .simple-paper {
     display: flex;
@@ -59,7 +54,6 @@ a {
     flex-direction: column;
     max-width: 445px;
     height: 322px;
-    outline: 1px solid red;
     box-sizing: border-box;
     margin-left: 165px;
     margin-top: 130px;
@@ -106,21 +100,17 @@ a {
     margin-right: 165px;
 }
 
-
 .bleaching-process {
     background-color: #DCDCDC;
-    outline: 1px solid red;
     display: flex;
     justify-content: center;
 }
 
 .bleaching-process__content {
-    outline: 1px solid red;
     width: 1110px;
 }
 
 .bleaching-process__content__card {
-    /*outline: 1px solid black;*/
     display: flex;
     max-width: 350px;
     justify-content: space-between;
@@ -131,7 +121,6 @@ a {
 .card-text {
     display: flex;
     flex-direction: column;
-    outline: 1px solid red;
     width: 160px;
     height: 81px;
     margin-top: 37px;
@@ -161,7 +150,6 @@ a {
 .card-items {
     display: flex;
     gap: 30px;
-    outline: 1px solid salmon;
     justify-content: center;
     margin-bottom: 90px;
     box-sizing: border-box;
@@ -179,7 +167,6 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    outline: 1px solid red;
     align-self: flex-start;
 }
 
@@ -192,14 +179,12 @@ a {
     width: 350px;
     height: 74px;
     box-sizing: border-box;
-    outline: 1px solid black;
     margin-bottom: 20px;
     margin-top: 59px;
 }
 
 
 .bleaching-process__main-paragraph {
-    outline: 1px solid green;
     width: 350px;
     font-family: Roboto;
     font-weight: 400;
@@ -213,9 +198,7 @@ a {
 
 .catalog {
     width: 1440px;
-    outline: 2px solid black;
     padding-top: 90px;
-
 }
 
 .catalog-list {
@@ -230,7 +213,6 @@ a {
 .catalog-card {
     width: 255px;
     height: 465px;
-    outline: 2px solid red;
 }
 
 .catalog-card_heading {
@@ -265,7 +247,7 @@ a {
     color: #7875fe;
 }
 
-.catalog-card_link::after{
+.catalog-card_link::after {
     content: "\2192";
     margin-left: 5px;
 }
@@ -278,25 +260,22 @@ a {
 
 /*--------------------Блок компаний------------------*/
 
-.companies{
+.companies {
     background-color: #DCDCDC;
     padding-top: 90px;
-    outline: 2px solid black;
     padding-bottom: 90px;
 }
 
-.companies_list{
+.companies_list {
     display: flex;
     justify-content: center;
     gap: 30px;
-    outline: 2px solid black;
 }
 
 /*-----------------------simple-sketchbook------------*/
 
 
-.simple-sketchbook{
-    outline: 2px solid red;
+.simple-sketchbook {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -305,8 +284,7 @@ a {
 
 
 
-.simple-sketchbook_text{
-    outline: 1px solid black;
+.simple-sketchbook_text {
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -315,7 +293,7 @@ a {
     box-sizing: border-box;
 }
 
-.simple-sketchbook_text_header{
+.simple-sketchbook_text_header {
     font-family: Roboto;
     font-weight: 400;
     font-size: 40px;
@@ -324,24 +302,28 @@ a {
     margin-bottom: 8px;
 }
 
-.simple-sketchbook_text_content{
+.simple-sketchbook_text_content {
     font-family: Roboto;
-font-weight: 400;
-font-size: 18px;
-line-height: 170%;
-color: #85859b;
-margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859b;
+    margin-bottom: 30px;
 }
 
-.simple-sketchbook_button{
+.simple-sketchbook_button {
     padding: 23.5px 94.5px;
     box-sizing: border-box;
     border: 2px solid #7875FE;
     width: 255px;
     height: 70px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7875fe;
 }
 
-.simple-sketchbook_img{
+.simple-sketchbook_img {
     margin-top: 90px;
 }
 
@@ -349,5 +331,42 @@ margin-bottom: 30px;
 
 
 .footer {
-    background-color:#4C5866;
+    background-color: #4C5866;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 29px;
+}
+
+
+.footer_socnet {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 29px;
+    margin-right: 165px;
+}
+
+.footer_img {
+    margin-bottom: 29px;
+    margin-left: 162px;
+}
+
+
+.trademark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trademark_content {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #4c5866;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.trademark_content_symbol {
+    color: #bcbcbc;
 }
